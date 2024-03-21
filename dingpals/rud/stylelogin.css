@@ -1,0 +1,113 @@
+stylelogin.css
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.container-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-right-div {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-box, .right-box {
+    flex: 1;
+}
+
+.left-box {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.left-upper-box, .left-lower-box {
+    flex: 1;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.title-box {
+    margin-top: 20px;
+}
+
+.h1t {
+    font-size: 28px;
+    margin: 0;
+}
+
+.h2t {
+    font-size: 18px;
+    margin: 0;
+}
+
+.right-box {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.input-box {
+    margin-top: 20px;
+}
+
+.login-title {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], input[type="submit"], .login-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.remember-me {
+    margin-top: 10px;
+}
+
+.signup-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signup-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
